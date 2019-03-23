@@ -1,8 +1,55 @@
 #my-picture{
     width:150px;
     height:150px;
+    float: left;
 }
 
 #indexRowOne{
     margin-top: 20px;
+}
+
+#colOne{
+    padding: 0;
+    margin:0;
+}
+
+.card{
+    width: 100%;
+    margin:0;
+    padding: 0;
+    background-color:black;
+  }
+
+.nav-wrapper {
+    background-color: rgb(15, 56, 92);
+    margin:0;
+}
+
+#jumbotron{
+    
+}
+
+.row{
+    margin:0;
+    padding:0;
+}
+
+#pageTitle{
+    color: white;
+}
+
+h3{
+    margin-top:0;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+.container{
+    background-color: white;
+    padding: 5px;
+    margin-top: 0;
+    color: rgb(15, 56, 92)
 }
