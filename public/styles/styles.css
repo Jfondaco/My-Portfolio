@@ -27,6 +27,10 @@
     background-color:black;
   }
 
+.card-content{
+    color:white;
+}
+
 .nav-wrapper {
     background-color: rgb(15, 56, 92);
     margin:0;
