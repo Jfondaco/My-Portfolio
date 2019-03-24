@@ -21,28 +21,29 @@ html(lang="en")
                     .card#Jumbotron
                         .card-content.white-text
                             span.card-title(id="pageTitle") Joseph Fondaco
+                            p#titleP Aspiring Web Developer
                                
             nav
                 .nav-wrapper
                     a.sidenav-trigger(href='#', data-target='mobile-demo')
                         i.material-icons menu
                     
-
-                    ul.left.hide-on-med-and-down
-                        li
-                            a(href="/") About Me
-                        li
-                            a(href="/portfolio") Portfolio
-                        li
-                            a(href="/contact") Contact
-                         
-                    ul#mobile-demo.sidenav
-                        li
-                            a(href="/") Home
-                        li
-                            a(href="/create") Create
-                        li
-                            a(href="/stories") Stories
-                        li 
-                            a(href="/write") Play        
+                    .table
+                        ul.left.hide-on-med-and-down
+                            li
+                                a(href="/") About Me
+                            li
+                                a(href="/portfolio") Portfolio
+                            li
+                                a(href="/contact") Contact
+                            
+                        ul#mobile-demo.sidenav
+                            li
+                                a(href="/") Home
+                            li
+                                a(href="/create") Create
+                            li
+                                a(href="/stories") Stories
+                            li 
+                                a(href="/write") Play        
         block create

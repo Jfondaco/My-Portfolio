@@ -1,11 +1,18 @@
+.li { 
+    display: inline; 
+    
+}
+
 #my-picture{
     width:150px;
     height:150px;
     float: left;
+    margin-left: 100px;
+    margin-top: 50px;
 }
 
-#indexRowOne{
-    margin-top: 20px;
+#RowOne{
+    margin: 0 auto;
 }
 
 #colOne{
@@ -25,9 +32,6 @@
     margin:0;
 }
 
-#jumbotron{
-    
-}
 
 .row{
     margin:0;
@@ -36,11 +40,16 @@
 
 #pageTitle{
     color: white;
+    text-align: center;
 }
 
 h3{
     margin-top:0;
     margin-bottom: 10px;
+    text-align: center;
+    border-bottom: solid black 2px;
+    color: rgb(15, 56, 92);
+    padding:10px;
 }
 
 body{
@@ -50,6 +59,39 @@ body{
 .container{
     background-color: white;
     padding: 5px;
-    margin-top: 0;
+    margin-top: 50px;
     color: rgb(15, 56, 92)
+}
+
+#portfolioImg{
+    width:100px;
+    height:100px;
+}
+
+#cardImg{
+    width:200px;
+    height:200px;
+}
+
+#portfolioCards{
+    margin-top:20px;
+}
+
+#portfolioP{
+    padding: 10px;
+    text-align: center;
+    color: rgb(15, 56, 92);
+}
+
+text{
+    color: rgb(15, 56, 92);
+}
+
+.table {
+	display: table;
+	margin: 0 auto;
+}
+
+#titleP{
+    text-align: center;
 }
