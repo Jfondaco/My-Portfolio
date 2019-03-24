@@ -10,6 +10,9 @@
     margin-top: 50px;
     margin-right: 25px;
     margin-left: 150px;
+    border: solid 5px;
+    padding: 0;
+    border-color: gainsboro;
    
 }
 
@@ -38,6 +41,7 @@
 
 .card-content{
     color:white;
+    /* background-color: rgb(56, 59, 64); */
 }
 
 #cardAnchor{
@@ -87,6 +91,9 @@ body{
     margin-top: 50px;
     color: rgb(15, 56, 92);
     opacity: .85;
+    border: solid 5px;
+    padding: 0;
+    border-color: gainsboro;
 }
 
 #portfolioImg{
@@ -128,4 +135,18 @@ text{
     text-align: center;
     font-weight: bold;
     color: black;
+}
+
+.card-action:last-child {
+    border-radius: 0 0 2px 2px;
+    border-color: #e0e0e0;
+}
+
+#contactBody{
+    text-align: center;
+    padding: 10px;
+}
+
+.main-section{
+    padding: 10px;
 }
