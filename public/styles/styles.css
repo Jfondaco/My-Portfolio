@@ -14,7 +14,8 @@
 }
 
 #RowOne{
-    margin: 0 auto;
+    margin: auto;
+    width: 80%;
 }
 
 #colOne{
